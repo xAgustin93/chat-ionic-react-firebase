@@ -1,6 +1,7 @@
 import { IonApp, setupIonicReact } from "@ionic/react";
 import { HandlerRoutes } from "./routes";
 import { AuthProvider } from "./contexts";
+import "./utils/firebase";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
